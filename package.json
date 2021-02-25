@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development",
-    "build": "webpack --mode=production",
+    "build": "webpack --config webpack.config.js",
     "test": "jest --watchAll",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|css|scss)\"",
     "lint": "eslint --fix \"**/*.+(js)\"",
