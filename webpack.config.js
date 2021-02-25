@@ -65,16 +65,7 @@ module.exports = (env, argv) => ({
       filename: 'index.html',
       template: './src/index.html'
     }),
-    new HtmlWebpackPlugin({
-      // Also generate a test.html
-      filename: 'second.html',
-      template: './src/second.html'
-    }),
-    new HtmlWebpackPlugin({
-      // Also generate a test.html
-      filename: 'third.html',
-      template: './src/third.html'
-    }),
+    
    
     new MiniCssExtractPlugin({
       filename: '[name].css',
