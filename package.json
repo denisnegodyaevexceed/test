@@ -14,14 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/danncortes/vanilla-js-webpack-starter-project.git"
+    "url": "git+https://github.com/denisnegodyaevexceed/test.git"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/danncortes/vanilla-js-webpack-starter-project/issues"
-  },
-  "homepage": "https://github.com/danncortes/vanilla-js-webpack-starter-project#readme",
+  
   "devDependencies": {
     "@babel/core": "*",
     "@babel/preset-env": "*",
