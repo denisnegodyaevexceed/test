@@ -82,5 +82,10 @@ module.exports = (env, argv) => ({
     }),
     
     ...plugins(argv)
-  ]
+  ],
+  devServer: {
+    inline: true,
+    contentBase: './dist',
+    port: 5000
+  }
 });

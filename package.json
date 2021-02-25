@@ -6,10 +6,7 @@
   "scripts": {
     "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "dev": "webpack-dev-server",
-    "test": "jest --watchAll",
-    "prettier": "prettier --write \"**/*.+(js|jsx|json|css|scss)\"",
-    "lint": "eslint --fix \"**/*.+(js)\"",
-    "precommit": "lint-staged && jest"
+   
   },
   "repository": {
     "type": "git",
