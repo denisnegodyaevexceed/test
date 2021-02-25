@@ -6,7 +6,6 @@
   "scripts": {
     "start": "./node_modules/webpack/bin/webpack.js -p --progress && node server.js",
     "dev": "webpack-dev-server",
-    "build": "webpack --mode=production",
     "test": "jest --watchAll",
     "prettier": "prettier --write \"**/*.+(js|jsx|json|css|scss)\"",
     "lint": "eslint --fix \"**/*.+(js)\"",
